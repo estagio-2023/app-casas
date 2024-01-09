@@ -92,36 +92,29 @@ Sempre que um potencial comprador, queira visitar a casa, devemos registar as su
 [![Product Name Screen Shot][database-diagram]](#)
 
 <!-- GETTING STARTED -->
-## Como começar
+## Pre Requisitos
+<ul>
+  <li>PostgreSQL</li>
+  <li>Git</li>
+  <li>Visual Studio Code</li>
+</ul>
+Para esse projeto, será necessário seguir os passos abaixo:
 
-Exemplo de como devem ser providenciadas as instruções sob como fazer o setup local do projeto.
-Para ter o projeto a correr, devem ser seguidos os seguintes passos.
+### Download e Instalação do PostgreSQL
 
-### Prerequisitos
+  <ol>
+    <li>Faça o download do PostgreSQL através do link <a href="https://www.postgresql.org/download/">https://www.postgresql.org/download/</a> de acordo com seu sistema operacional</li>
+    <li>Defina um password para o superuser da database. Podes usar "postgres", por exemplo, e deixar todas as opções como default. </br> <img src="imagens/instructions/password pgsql.jpg" alt="password screenshot"></li>
+    <li>Para começar a utilizar o programa, procure por pgAdmin4 e execute.</li>
+    
+  </ol>
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+### Fazer download do Git 
 
-### Instalação
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/silva096/app-casas.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<ol>
+    <li>Acesse o link <a href="http://git-scm.com/download/win">http://git-scm.com/download/win </a> e faça o download do git para Windows. O download inciará automaticamente. </li>
+    <li>Quando o git estiver instalado no seu pc, será possível realizar mudanças e controle de versões do projeto no repositório do GitHub, assim como fazer commits e criar branches. </li>  
+  </ol>
 
 
 
